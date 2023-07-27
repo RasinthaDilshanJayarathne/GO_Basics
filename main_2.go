@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func main() {
+func main_3() {
 	//greeting := "hello there friends!"
 
 	// fmt.Println(strings.Contains(greeting, "hello"))
