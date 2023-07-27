@@ -33,4 +33,28 @@ func main() {
 	var scoreTwo float64 = 255.334534534534
 	scoreThree := 1.5
 	fmt.Println(scoreOne, scoreTwo, scoreThree)
+
+	age := 25
+	name := "Rasintha"
+
+	//print
+	fmt.Print("hello, ")
+	fmt.Print("world! \n ")
+	fmt.Print("new line \n")
+
+	//println
+	fmt.Println("hello rasintha!")
+	fmt.Println("goodbyee rasintha!")
+	fmt.Println("my age is", age, "and my name is", name)
+
+	//printf (Formatting Strings)
+	fmt.Printf("my age is %v and my name is %v \n", age, name)
+	fmt.Printf("my age is %q and my name is %q \n", age, name)
+	fmt.Printf("age is of type %T \n", age)
+	fmt.Printf("your scored %f points! \n", 225.55)
+	fmt.Printf("your scored %0.1f points! \n", 225.55)
+
+	//Sprintf (Save Formatting Strings)
+	var str = fmt.Sprintf("my age is %v and my name is %v \n", age, name)
+	fmt.Println("the saved string..", str)
 }
