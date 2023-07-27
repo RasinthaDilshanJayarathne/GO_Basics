@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main_2() {
 	var ages [3]int = [3]int{20, 25, 30}
 
 	names := [4]string{"A", "B", "C", "D"}
